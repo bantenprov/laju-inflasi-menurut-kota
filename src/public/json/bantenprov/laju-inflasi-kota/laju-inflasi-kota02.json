@@ -2,352 +2,142 @@
   {
     "2010": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 12279.5
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 12572.5
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 58099.4
-      },
-      {
-        "wilayah": "Kabupaten",
+        "wilayah": "Kota",
         "name": "Serang",
         "tingkat": "dua",
-        "data": 33841.0
+        "data": 6.18
       },
       {
         "wilayah": "Kota",
         "name": "Tangerang",
         "tingkat": "dua",
-        "data": 66921.4
+        "data": 6.08
       },
       {
         "wilayah": "Kota",
         "name": "Cilegon",
         "tingkat": "dua",
-        "data": 44676.5
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 12549.6
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 30525.3
+        "data": 6.12
       }
     ],
     "2011": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 13695.0
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 13960.8
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 65741.3
-      },
-      {
-        "wilayah": "Kabupaten",
+        "wilayah": "Kota",
         "name": "Serang",
         "tingkat": "dua",
-        "data": 38186.9
+        "data": 2.78
       },
       {
         "wilayah": "Kota",
         "name": "Tangerang",
         "tingkat": "dua",
-        "data": 75709.9
+        "data": 3.78
       },
       {
         "wilayah": "Kota",
         "name": "Cilegon",
         "tingkat": "dua",
-        "data": 49827.7
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 14160.9
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 34891.9
+        "data": 2.35
       }
     ],
     "2012": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 15115.4
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 15125.9
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 72303.7
-      },
-      {
-        "wilayah": "Kabupaten",
+        "wilayah": "Kota",
         "name": "Serang",
         "tingkat": "dua",
-        "data": 42039.5
+        "data": 4.41
       },
       {
         "wilayah": "Kota",
         "name": "Tangerang",
         "tingkat": "dua",
-        "data": 83648.1
+        "data": 4.44
       },
       {
         "wilayah": "Kota",
         "name": "Cilegon",
         "tingkat": "dua",
-        "data": 55414.1
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 15506.7
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 39071.5
+        "data": 3.91
       }
     ],
     "2013": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 16443.9
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 16742.0
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 80570.6
-      },
-      {
-        "wilayah": "Kabupaten",
+        "wilayah": "Kota",
         "name": "Serang",
         "tingkat": "dua",
-        "data": 45972.3
+        "data": 9.16
       },
       {
         "wilayah": "Kota",
         "name": "Tangerang",
         "tingkat": "dua",
-        "data": 94561.0
+        "data": 10.02
       },
       {
         "wilayah": "Kota",
         "name": "Cilegon",
         "tingkat": "dua",
-        "data": 61746.9
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 17452.6
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 44346.7
+        "data": 7.89
       }
     ],
     "2014": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 18195.7
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 18606.9
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 91692.8
-      },
-      {
-        "wilayah": "Kabupaten",
+        "wilayah": "Kota",
         "name": "Serang",
         "tingkat": "dua",
-        "data": 51430.8
+        "data": 11.27
       },
       {
         "wilayah": "Kota",
         "name": "Tangerang",
         "tingkat": "dua",
-        "data": 110772.3
+        "data": 10.03
       },
       {
         "wilayah": "Kota",
         "name": "Cilegon",
         "tingkat": "dua",
-        "data": 70030.7
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 19691.3
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 50214.6
+        "data": 9.93
       }
     ],
     "2015": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 20278.0
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 20729.2
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 102044.7
-      },
-      {
-        "wilayah": "Kabupaten",
+        "wilayah": "Kota",
         "name": "Serang",
         "tingkat": "dua",
-        "data": 56313.7
+        "data": 4.67
       },
       {
         "wilayah": "Kota",
         "name": "Tangerang",
         "tingkat": "dua",
-        "data": 126119.1
+        "data": 4.28
       },
       {
         "wilayah": "Kota",
         "name": "Cilegon",
         "tingkat": "dua",
-        "data": 77962.9
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 21866.6
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 56044.4
+        "data": 3.94
       }
     ],
     "2016": [
       {
-        "wilayah": "Kabupaten",
-        "name": "Pandeglang",
-        "tingkat": "dua",
-        "data": 30278.0
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Lebak",
-        "tingkat": "dua",
-        "data": 30729.2
-      },
-      {
-        "wilayah": "Kabupaten",
-        "name": "Tangerang",
-        "tingkat": "dua",
-        "data": 202044.7
-      },
-      {
-        "wilayah": "Kabupaten",
+        "wilayah": "Kota",
         "name": "Serang",
         "tingkat": "dua",
-        "data": 66313.7
+        "data": 3.26
       },
       {
         "wilayah": "Kota",
         "name": "Tangerang",
         "tingkat": "dua",
-        "data": 226119.1
+        "data": 2.65
       },
       {
         "wilayah": "Kota",
-        "name": "Cilegon",
+        "name": "Cilegong",
         "tingkat": "dua",
-        "data": 87962.9
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Serang",
-        "tingkat": "dua",
-        "data": 31866.6
-      },
-      {
-        "wilayah": "Kota",
-        "name": "Tangerang Selatan",
-        "tingkat": "dua",
-        "data": 66044.4
+        "data": 4.22
       }
     ]
   }
