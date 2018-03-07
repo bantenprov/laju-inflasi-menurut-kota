@@ -77,7 +77,7 @@ $ php artisan db:seed --class=BantenprovLajuInflasiKotaSeeder
 
 ```bash
 $ php artisan vendor:publish --tag=laju-inflasi-kota-assets
-$ php artisan vendor:publish --tag=group-egovernment-public
+$ php artisan vendor:publish --tag=laju-inflasi-kota-public
 ```
 #### Tambahkan route di dalam file : `resources/assets/js/routes.js` :
 
