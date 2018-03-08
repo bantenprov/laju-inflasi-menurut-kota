@@ -1,13 +1,13 @@
 # Laju Inflasi Menurut Kota
 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/laju-inflasi-kota/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/laju-inflasi-kota/?branch=master)
-[![Build Status](https://scrutinizer-ci.com/g/bantenprov/laju-inflasi-kota/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/laju-inflasi-kota/build-status/master)
-[![Latest Stable Version](https://poser.pugx.org/bantenprov/laju-inflasi-kota/v/stable)](https://packagist.org/packages/bantenprov/laju-inflasi-kota)
-[![Total Downloads](https://poser.pugx.org/bantenprov/laju-inflasi-kota/downloads)](https://packagist.org/packages/bantenprov/laju-inflasi-kota)
-[![Latest Unstable Version](https://poser.pugx.org/bantenprov/laju-inflasi-kota/v/unstable)](https://packagist.org/packages/bantenprov/laju-inflasi-kota)
-[![License](https://poser.pugx.org/bantenprov/laju-inflasi-kota/license)](https://packagist.org/packages/bantenprov/laju-inflasi-kota)
-[![Monthly Downloads](https://poser.pugx.org/bantenprov/laju-inflasi-kota/d/monthly)](https://packagist.org/packages/bantenprov/laju-inflasi-kota)
-[![Daily Downloads](https://poser.pugx.org/bantenprov/laju-inflasi-kota/d/daily)](https://packagist.org/packages/bantenprov/laju-inflasi-kota)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bantenprov/laju-inflasi-menurut-kota/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/laju-inflasi-menurut-kota/?branch=master)
+[![Build Status](https://scrutinizer-ci.com/g/bantenprov/laju-inflasi-menurut-kota/badges/build.png?b=master)](https://scrutinizer-ci.com/g/bantenprov/laju-inflasi-menurut-kota/build-status/master)
+[![Latest Stable Version](https://poser.pugx.org/bantenprov/laju-inflasi-menurut-kota/v/stable)](https://packagist.org/packages/bantenprov/laju-inflasi-menurut-kota)
+[![Total Downloads](https://poser.pugx.org/bantenprov/laju-inflasi-menurut-kota/downloads)](https://packagist.org/packages/bantenprov/laju-inflasi-menurut-kota)
+[![Latest Unstable Version](https://poser.pugx.org/bantenprov/laju-inflasi-menurut-kota/v/unstable)](https://packagist.org/packages/bantenprov/laju-inflasi-menurut-kota)
+[![License](https://poser.pugx.org/bantenprov/laju-inflasi-menurut-kota/license)](https://packagist.org/packages/bantenprov/laju-inflasi-menurut-kota)
+[![Monthly Downloads](https://poser.pugx.org/bantenprov/laju-inflasi-menurut-kota/d/monthly)](https://packagist.org/packages/bantenprov/laju-inflasi-menurut-kota)
+[![Daily Downloads](https://poser.pugx.org/bantenprov/laju-inflasi-menurut-kota/d/daily)](https://packagist.org/packages/bantenprov/laju-inflasi-menurut-kota)
 
 Laju Inflasi Menurut Kota
 
@@ -28,7 +28,7 @@ $ composer require bantenprov/laju-inflasi-menurut-kota
 ### Download via github
 
 ```bash
-$ git clone https://github.com/fadika06/laju-inflasi-menurut-kota.git
+$ git clone https://github.com/bantenprov/laju-inflasi-menurut-kota.git
 ```
 
 #### Edit `config/app.php` :
