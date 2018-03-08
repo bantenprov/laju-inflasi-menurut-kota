@@ -4,15 +4,19 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "title": "Laju Inflasi Menurut Kota 2010",
+      "title": "Laju Inflasi Kota Serang",
       "yyyy": "2018"
     },
     "series": [
       {
         "data": [
-          {"value":6.18,"name":"Kota Serang"},
-          {"value":6.08,"name":"Kota Tangerang"},
-          {"value":6.12,"name":"Kota Cilegon"}
+          {"value":6.18,"name":"2010"},
+          {"value":2.78,"name":"2011"},
+          {"value":4.41,"name":"2012"},
+          {"value":9.16,"name":"2013"},
+          {"value":11.27,"name":"2014"},
+          {"value":4.67,"name":"2015"},
+          {"value":3.26,"name":"2016"}
         ]
       }
     ]
@@ -22,15 +26,19 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "title": "Laju Inflasi Menurut Kota 2011",
+      "title": "Laju Inflasi Kota Tangerang",
       "yyyy": "2018"
     },
     "series": [
       {
         "data": [
-          {"value":2.78,"name":"Kota Serang"},
-          {"value":3.78,"name":"Kota Tangerang"},
-          {"value":2.35,"name":"Kota Cilegon"}
+          {"value":6.08,"name":"2010"},
+          {"value":3.78,"name":"2011"},
+          {"value":4.44,"name":"2012"},
+          {"value":10.02,"name":"2013"},
+          {"value":10.03,"name":"2014"},
+          {"value":4.28,"name":"2015"},
+          {"value":2.65,"name":"2016"}
         ]
       }
     ]
@@ -40,87 +48,19 @@
       "type": "category",
       "region": "Provinsi",
       "name": "Banten",
-      "title": "Laju Inflasi Menurut Kota 2012",
+      "title": "Laju Inflasi Kota Cilegon",
       "yyyy": "2018"
     },
     "series": [
       {
         "data": [
-          {"value":4.41,"name":"Kota Serang"},
-          {"value":4.44,"name":"Kota Tangerang"},
-          {"value":3.91,"name":"Kota Cilegon"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "title": "Laju Inflasi Menurut Kota 2013",
-      "yyyy": "2018"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":9.16,"name":"Kota Serang"},
-          {"value":10.02,"name":"Kota Tangerang"},
-          {"value":7.98,"name":"Kota Cilegon"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "title": "Laju Inflasi Menurut Kota 2014",
-      "yyyy": "2018"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":11.27,"name":"Kota Serang"},
-          {"value":10.03,"name":"Kota Tangerang"},
-          {"value":9.93,"name":"Kota Cilegon"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "title": "Laju Inflasi Menurut Kota 2015",
-      "yyyy": "2018"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":4.67,"name":"Kota Serang"},
-          {"value":4.28,"name":"Kota Tangerang"},
-          {"value":3.94,"name":"Kota Cilegon"}
-        ]
-      }
-    ]
-  },
-  {
-    "xAxis": {
-      "type": "category",
-      "region": "Provinsi",
-      "name": "Banten",
-      "title": "Laju Inflasi Menurut Kota 2016",
-      "yyyy": "2018"
-    },
-    "series": [
-      {
-        "data": [
-          {"value":3.26,"name":"Kota Serang"},
-          {"value":2.65,"name":"Kota Tangerang"},
-          {"value":4.22,"name":"Kota Cilegon"}
+          {"value":6.12,"name":"2010"},
+          {"value":2.35,"name":"2011"},
+          {"value":3.91,"name":"2012"},
+          {"value":7.98,"name":"2013"},
+          {"value":9.93,"name":"2014"},
+          {"value":3.94,"name":"2015"},
+          {"value":4.22,"name":"2016"}
         ]
       }
     ]

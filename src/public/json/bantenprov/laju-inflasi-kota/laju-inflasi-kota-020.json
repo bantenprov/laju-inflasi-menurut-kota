@@ -5,7 +5,7 @@
       "region": "Provinsi",
       "name": "Banten",
       "yyyy": "2011",
-      "title": "Laju Inflasi Menurut Kota Serang",
+      "title": "Laju Inflasi Kota Serang",
       "data": [
         "2010",
         "2011",
@@ -34,7 +34,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Laju Inflasi Menurut Kota Tangerang",
+      "title": "Laju Inflasi Kota Tangerang",
       "yyyy": "2011",
       "data": [
         "2010",
@@ -64,7 +64,7 @@
     "xAxis": {
       "type": "category",
       "region": "Negara",
-      "title": "Laju Inflasi Menurut Kota Cilegon",
+      "title": "Laju Inflasi Kota Cilegon",
       "yyyy": "2011",
       "data": [
         "2010",
