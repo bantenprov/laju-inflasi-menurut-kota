@@ -204,7 +204,8 @@ import ExampleVueTable from './components/vue-table/ExampleVueTable.vue';
 Vue.component('example-vue-table', ExampleVueTable);
 
 import LajuInflasiKota from './components/bantenprov/laju-inflasi-kota/LajuInflasiKota.chart.vue';
-Vue.component('echarts-laju-inflasi-menurut
+Vue.component('echarts-laju-inflasi-kota', LajuInflasiKota);
+
 import LajuInflasiKotaKota from './components/bantenprov/laju-inflasi-kota/LajuInflasiKotaKota.chart.vue';
 Vue.component('echarts-laju-inflasi-kota-kota', LajuInflasiKotaKota);
 
