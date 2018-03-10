@@ -5,7 +5,7 @@ namespace Bantenprov\LajuInflasiKota\Http\Controllers;
 /* Require */
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Bantenprov\BudgetAbsorption\Facades\LajuInflasiKotaFacade;
+use Bantenprov\LajuInflasiKota\Facades\LajuInflasiKotaFacade;
 
 /* Models */
 use Bantenprov\LajuInflasiKota\Models\Bantenprov\LajuInflasiKota\LajuInflasiKota;
