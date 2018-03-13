@@ -58,7 +58,7 @@ $ php artisan migrate
 #### Publish database seeder :
 
 ```bash
-$ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-seeds
+$ php artisan vendor:publish --tag=laju-inflasi-kota-seeds
 ```
 
 #### Lakukan auto dump :
@@ -76,8 +76,8 @@ $ php artisan db:seed --class=BantenprovLajuInflasiKotaSeeder
 #### Lakukan publish component vue :
 
 ```bash
-$ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-assets
-$ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-public
+$ php artisan vendor:publish --tag=laju-inflasi-kota-assets
+$ php artisan vendor:publish --tag=laju-inflasi-kota-public
 ```
 #### Tambahkan route di dalam file : `resources/assets/js/routes.js` :
 
@@ -89,9 +89,9 @@ $ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-public
     children: [
         //== ...
         {
-         path: '/dashboard/laju-inflasi-menurut-kota',
+         path: '/dashboard/laju-inflasi-kota',
          components: {
-            main: resolve => require(['./components/views/bantenprov/laju-inflasi-menurut-kota/DashboardLajuInflasiKota.vue'], resolve),
+            main: resolve => require(['./components/views/bantenprov/laju-inflasi-kota/DashboardLajuInflasiKota.vue'], resolve),
             navbar: resolve => require(['./components/Navbar.vue'], resolve),
             sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
           },
@@ -112,9 +112,9 @@ $ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-public
     children: [
         //== ...
         {
-            path: '/admin/laju-inflasi-menurut-kota',
+            path: '/admin/laju-inflasi-kota',
             components: {
-                main: resolve => require(['./components/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKota.index.vue'], resolve),
+                main: resolve => require(['./components/bantenprov/laju-inflasi-kota/LajuInflasiKota.index.vue'], resolve),
                 navbar: resolve => require(['./components/Navbar.vue'], resolve),
                 sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
             },
@@ -123,9 +123,9 @@ $ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-public
             }
         },
         {
-            path: '/admin/laju-inflasi-menurut-kota/create',
+            path: '/admin/laju-inflasi-kota/create',
             components: {
-                main: resolve => require(['./components/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKota.add.vue'], resolve),
+                main: resolve => require(['./components/bantenprov/laju-inflasi-kota/LajuInflasiKota.add.vue'], resolve),
                 navbar: resolve => require(['./components/Navbar.vue'], resolve),
                 sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
             },
@@ -134,9 +134,9 @@ $ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-public
             }
         },
         {
-            path: '/admin/laju-inflasi-menurut-kota/:id',
+            path: '/admin/laju-inflasi-kota/:id',
             components: {
-                main: resolve => require(['./components/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKota.show.vue'], resolve),
+                main: resolve => require(['./components/bantenprov/laju-inflasi-kota/LajuInflasiKota.show.vue'], resolve),
                 navbar: resolve => require(['./components/Navbar.vue'], resolve),
                 sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
             },
@@ -145,9 +145,9 @@ $ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-public
             }
         },
         {
-            path: '/admin/laju-inflasi-menurut-kota/:id/edit',
+            path: '/admin/laju-inflasi-kota/:id/edit',
             components: {
-                main: resolve => require(['./components/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKota.edit.vue'], resolve),
+                main: resolve => require(['./components/bantenprov/laju-inflasi-kota/LajuInflasiKota.edit.vue'], resolve),
                 navbar: resolve => require(['./components/Navbar.vue'], resolve),
                 sidebar: resolve => require(['./components/Sidebar.vue'], resolve)
             },
@@ -170,7 +170,7 @@ $ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-public
         //== ...
         {
          name: 'Laju Inflasi Menurut Kota',
-         link: '/dashboard/laju-inflasi-menurut-kota',
+         link: '/dashboard/laju-inflasi-kota',
          icon: 'fa fa-angle-double-right'
         },
         //== ...
@@ -187,7 +187,7 @@ $ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-public
         //== ...
         {
           name: 'Laju Inflasi Menurut Kota',
-          link: '/admin/laju-inflasi-menurut-kota',
+          link: '/admin/laju-inflasi-kota',
           icon: 'fa fa-angle-double-right'
         },
         //== ...
@@ -203,37 +203,37 @@ $ php artisan vendor:publish --tag=laju-inflasi-menurut-kota-public
 import ExampleVueTable from './components/vue-table/ExampleVueTable.vue';
 Vue.component('example-vue-table', ExampleVueTable);
 
-import LajuInflasiKota from './components/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKota.chart.vue';
-Vue.component('echarts-laju-inflasi-menurut-kota', LajuInflasiKota);
+import LajuInflasiKota from './components/bantenprov/laju-inflasi-kota/LajuInflasiKota.chart.vue';
+Vue.component('echarts-laju-inflasi-kota', LajuInflasiKota);
 
-import LajuInflasiKotaKota from './components/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKotaKota.chart.vue';
-Vue.component('echarts-laju-inflasi-menurut-kota-kota', LajuInflasiKotaKota);
+import LajuInflasiKotaKota from './components/bantenprov/laju-inflasi-kota/LajuInflasiKotaKota.chart.vue';
+Vue.component('echarts-laju-inflasi-kota-kota', LajuInflasiKotaKota);
 
-import LajuInflasiKotaTahun from './components/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKotaTahun.chart.vue';
-Vue.component('echarts-laju-inflasi-menurut-kota-tahun', LajuInflasiKotaTahun);
+import LajuInflasiKotaTahun from './components/bantenprov/laju-inflasi-kota/LajuInflasiKotaTahun.chart.vue';
+Vue.component('echarts-laju-inflasi-kota-tahun', LajuInflasiKotaTahun);
 
-import LajuInflasiKotaAdminShow from './components/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKotaAdmin.show.vue';
-Vue.component('admin-view-laju-inflasi-menurut-kota-tahun', LajuInflasiKotaAdminShow);
+import LajuInflasiKotaAdminShow from './components/bantenprov/laju-inflasi-kota/LajuInflasiKotaAdmin.show.vue';
+Vue.component('admin-view-laju-inflasi-kota-tahun', LajuInflasiKotaAdminShow);
 
 //== Echarts Group Egoverment
 
-import LajuInflasiKotaBar01 from './components/views/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKotaBar01.vue';
-Vue.component('laju-inflasi-menurut-kota-bar-01', LajuInflasiKotaBar01);
+import LajuInflasiKotaBar01 from './components/views/bantenprov/laju-inflasi-kota/LajuInflasiKotaBar01.vue';
+Vue.component('laju-inflasi-kota-bar-01', LajuInflasiKotaBar01);
 
-import LajuInflasiKotaBar02 from './components/views/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKotaBar02.vue';
-Vue.component('laju-inflasi-menurut-kota-bar-02', LajuInflasiKotaBar02);
+import LajuInflasiKotaBar02 from './components/views/bantenprov/laju-inflasi-kota/LajuInflasiKotaBar02.vue';
+Vue.component('laju-inflasi-kota-bar-02', LajuInflasiKotaBar02);
 
 //== mini bar charts
-import LajuInflasiKotaBar03 from './components/views/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKotaBar03.vue';
-Vue.component('laju-inflasi-menurut-kota-bar-03', LajuInflasiKotaBar03);
+import LajuInflasiKotaBar03 from './components/views/bantenprov/laju-inflasi-kota/LajuInflasiKotaBar03.vue';
+Vue.component('laju-inflasi-kota-bar-03', LajuInflasiKotaBar03);
 
-import LajuInflasiKotaPie01 from './components/views/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKotaPie01.vue';
-Vue.component('laju-inflasi-menurut-kota-pie-01', LajuInflasiKotaPie01);
+import LajuInflasiKotaPie01 from './components/views/bantenprov/laju-inflasi-kota/LajuInflasiKotaPie01.vue';
+Vue.component('laju-inflasi-kota-pie-01', LajuInflasiKotaPie01);
 
-import LajuInflasiKotaPie02 from './components/views/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKotaPie02.vue';
-Vue.component('laju-inflasi-menurut-kota-pie-02', LajuInflasiKotaPie02);
+import LajuInflasiKotaPie02 from './components/views/bantenprov/laju-inflasi-kota/LajuInflasiKotaPie02.vue';
+Vue.component('laju-inflasi-kota-pie-02', LajuInflasiKotaPie02);
 
 //== mini pie charts
-import LajuInflasiKotaPie03 from './components/views/bantenprov/laju-inflasi-menurut-kota/LajuInflasiKotaPie03.vue';
-Vue.component('laju-inflasi-menurut-kota-pie-03', LajuInflasiKotaPie03);
+import LajuInflasiKotaPie03 from './components/views/bantenprov/laju-inflasi-kota/LajuInflasiKotaPie03.vue';
+Vue.component('laju-inflasi-kota-pie-03', LajuInflasiKotaPie03);
 ```
